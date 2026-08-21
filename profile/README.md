@@ -47,4 +47,4 @@ We publish our benchmarks rather than only our numbers.
 
 ## Community
 
-[Discord](https://discord.gg/geYkWUeH) · [brokk.ai](https://brokk.ai) · Issues and PRs welcome on any repository above.
+[Discord](https://discord.gg/EpwkYEByN) · [brokk.ai](https://brokk.ai) · Issues and PRs welcome on any repository above.
