@@ -7,6 +7,8 @@ Organization-level GitHub configuration for [Brokk, Inc.](https://github.com/Bro
   seen our repositories before, so keep it a router: what each repository is,
   how the repositories relate, and where to start.
 
-When a repository is added, archived, or renamed, update `profile/README.md` in
-the same change. A stale organization page is worse than none, because it
-implies the unlisted work is not maintained.
+The profile lists active repositories only. When a repository is added,
+renamed, or archived, update `profile/README.md` in the same change: an
+archived repository listed as a recommended starting point sends a visitor to
+work we are no longer maintaining, and an active repository left unlisted
+implies the same thing about work we are.

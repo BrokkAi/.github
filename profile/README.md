@@ -15,15 +15,13 @@ layer matches your problem.
 | **[bifrost](https://github.com/BrokkAi/bifrost)** | Multi-language static analysis for agents, editors, and large repositories. One IR across languages, a real query language (RQL), and MCP/LSP/CLI/Python/Rust interfaces. `Apache-2.0` · [docs](https://bifrost.brokk.ai/) |
 | **[bifrost-policy-scan](https://github.com/BrokkAi/bifrost-policy-scan)** | GitHub Action for Bifrost policy scans: SARIF upload, diff-aware PR gating. |
 | **[bifrost-extension-template](https://github.com/BrokkAi/bifrost-extension-template)** | Reference template for building your own analysis extensions on Bifrost's stable APIs. |
-| **[tree-sitter-ng](https://github.com/BrokkAi/tree-sitter-ng)** | Modern, null-safe Tree-sitter bindings for Java, with bundled cross-compiled binaries. |
 
 ## Agents and runtime
 
 | | |
 |---|---|
-| **[brokk-app](https://github.com/BrokkAi/brokk-app)** | Brokk itself: code intelligence for AI, as a desktop app and CLI. `GPL-3.0` · [brokk.ai](https://brokk.ai) |
-| **[anvil](https://github.com/BrokkAi/anvil)** | Portable Agent Client Protocol (ACP) server: model routing, tools, permissions, sandboxing, MCP. `LGPL-3.0` · [docs](https://anvil.brokk.ai/) |
 | **[mjolnir](https://github.com/BrokkAi/mjolnir)** | Terminal client for ACP coding agents, with model-first routing and a multi-agent coding council. `GPL-3.0` · [docs](https://mjolnir.brokk.ai/) |
+| **[anvil](https://github.com/BrokkAi/anvil)** | Portable Agent Client Protocol (ACP) server: model routing, tools, permissions, sandboxing, MCP. `LGPL-3.0` · [docs](https://anvil.brokk.ai/) |
 | **[hel](https://github.com/BrokkAi/hel)** | ACP session manager and remote execution environment. |
 
 ## Measurement
