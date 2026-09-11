@@ -26,6 +26,20 @@ layer matches your problem.
 | **[mjolnir](https://github.com/BrokkAi/mjolnir)** | Terminal client for ACP coding agents, with model-first routing and a multi-agent coding council. `GPL-3.0` · [docs](https://mjolnir.brokk.ai/) |
 | **[anvil](https://github.com/BrokkAi/anvil)** | Portable Agent Client Protocol (ACP) server: model routing, tools, permissions, sandboxing, MCP. `LGPL-3.0` · [docs](https://anvil.brokk.ai/) |
 | **[hel](https://github.com/BrokkAi/hel)** | ACP session manager and remote execution environment. |
+| **[muse-acp](https://github.com/BrokkAi/muse-acp)** | Use a Meta Muse Code subscription from Zed, IntelliJ IDEA, and other ACP clients. |
+| **[codex-acp](https://github.com/BrokkAi/codex-acp)** | ACP server for Codex CLI, maintained for smoother client and IDE integration. |
+
+## Repository automation
+
+Small, composable services for putting ACP agents to work on GitHub repositories.
+
+| | |
+|---|---|
+| **[brokk-town](https://github.com/BrokkAi/brokk-town)** | Local browser and terminal control plane for coordinated issue, review, release, and discovery workflows. |
+| **[issue-bot](https://github.com/BrokkAi/issue-bot)** | Walks GitHub issues, prepares fixes with a configurable ACP agent, and opens pull requests for review. |
+| **[review-bot](https://github.com/BrokkAi/review-bot)** | Reviews pull requests with an ACP agent and independently verifies findings before posting them. |
+| **[release-bot](https://github.com/BrokkAi/release-bot)** | Drives repository releases and verifies publication before recording success. |
+| **[bug-bot](https://github.com/BrokkAi/bug-bot)** / **[feature-bot](https://github.com/BrokkAi/feature-bot)** | Discover useful bugs and feature opportunities, deduplicate them, and file reviewed GitHub issues. |
 
 ## Measurement
 
@@ -46,6 +60,8 @@ We publish our benchmarks rather than only our numbers.
 - **You want faster mutation testing for a Cargo workspace** -> [quicksilver](https://github.com/BrokkAi/quicksilver).
 - **You want to run coding agents from a terminal** -> [mjolnir](https://github.com/BrokkAi/mjolnir).
 - **You are embedding an agent runtime in a product** -> [anvil](https://github.com/BrokkAi/anvil).
+- **You want to use Muse Code or Codex through an ACP client** -> [muse-acp](https://github.com/BrokkAi/muse-acp) or [codex-acp](https://github.com/BrokkAi/codex-acp).
+- **You want agents to maintain a GitHub repository** -> start with [Brokk Town](https://github.com/BrokkAi/brokk-town), or run one of the focused repository bots directly.
 - **You are comparing models or analyzers** -> [powerrank](https://github.com/BrokkAi/powerrank), [usagebench](https://github.com/BrokkAi/usagebench), [dataflowbench](https://github.com/BrokkAi/dataflowbench).
 
 ## Community
