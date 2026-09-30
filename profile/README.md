@@ -13,6 +13,7 @@ layer matches your problem.
 | | |
 |---|---|
 | **[bifrost](https://github.com/BrokkAi/bifrost)** | Multi-language static analysis for agents, editors, and large repositories. One IR across languages, a real query language (RQL), and MCP/LSP/CLI/Python/Rust interfaces. `Apache-2.0` · [docs](https://bifrost.brokk.ai/) |
+| **[bifrost-packs](https://github.com/BrokkAi/bifrost-packs)** | Open-source policies and semantic packs for Bifrost. Content migration is underway; Bifrost v0.13.0 is the target for consuming these as its built-ins. |
 | **[code-semantic-model-interchange](https://github.com/BrokkAi/code-semantic-model-interchange)** | Experimental, language-neutral specification for portable semantic models of code. `Apache-2.0` · [docs](https://csmi.brokk.ai/) |
 | **[csmi-demo](https://github.com/BrokkAi/csmi-demo)** | Reproducible interoperability demos comparing static-analysis results with and without the same CSMI semantic pack. `Apache-2.0` |
 | **[quicksilver](https://github.com/BrokkAi/quicksilver)** | Impact-selected mutation testing for Cargo workspaces: each mutant runs only the tests that execute it. `LGPL-3.0` |
@@ -56,6 +57,7 @@ We publish our benchmarks rather than only our numbers.
 ## Where to start
 
 - **You want code intelligence in your own agent or editor** -> [bifrost](https://github.com/BrokkAi/bifrost), then the [ten-minute evaluation](https://bifrost.brokk.ai/evaluate-bifrost/).
+- **You want Bifrost policies or library semantic packs** -> [bifrost-packs](https://github.com/BrokkAi/bifrost-packs).
 - **You want portable library semantics across analyzers** -> [CSMI](https://github.com/BrokkAi/code-semantic-model-interchange), then the [interoperability demos](https://github.com/BrokkAi/csmi-demo).
 - **You want faster mutation testing for a Cargo workspace** -> [quicksilver](https://github.com/BrokkAi/quicksilver).
 - **You want to run coding agents from a terminal** -> [mjolnir](https://github.com/BrokkAi/mjolnir).
